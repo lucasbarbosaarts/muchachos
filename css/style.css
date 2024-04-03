@@ -29,6 +29,10 @@ h1 {
     width: 350px;
 }
 
+.caixa footer {
+    margin-top: 50px;
+}
+
 .agendar {
     cursor: pointer;
     width: 120px;

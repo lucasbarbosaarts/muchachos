@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Muchachos</title>
+    <title>Muchachos - Barbearia</title>
 
 </head>
 
@@ -22,36 +22,34 @@
 
             <img src="img/logo.png" alt="">
             <h1>AGENDA ABERTA!</h1>
+            <p>Fala Muchachos, agora é por aqui que vamos<br>agendar o atendimento. Não perca tempo<br>e escolha logo o seu horário!</p>
 
             <div>
-                <!-- Google Calendar Appointment Scheduling begin -->
-                <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-                <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-                <script>
-                (function() {
-                var target = document.currentScript;
-                window.addEventListener('load', function() {
-                    calendar.schedulingButton.load({
-                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ25dTJTeD_9U0pJtS6b21NGG-u5t44Rz9llL9vj1Om83_Hc6K77mZU1ZRNlcRBIvLa21P4pr8sC?gv=true',
-                    color: '#039BE5',
-                    label: "AGENDAR",
-                    target,
-                    });
-                });
-                })();
-                </script>
-                <!-- end Google Calendar Appointment Scheduling -->
+                <button class="agendar">
+                    <!-- Widget de link do Calendly - início -->
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lucasbarbosaarts/agenda'});return false;">AGENDAR</a>
+                    <!-- Widget de link do Calendly - fim -->
+                </button>
             </div>
 
             <h2>&#128136;Recado Importante&#128136;</h2>
             <p>Não precisa esperar eu ligar para avisar.<br>
-                Se seu horário é xx:xx horas, se possível<br>
-                chegue 5 minutos antes por favor.<br>Não é sempre que eu
+                Se possível chegue 5 minutos antes<br>
+                do seu horário, por favor.<br>Não é sempre que eu
                 consigo ligar.<br>A responsabilidade por lembrar
                 do<br>agendamento é sua! O não comparecimento<br>
-                sem aviso prévio, pode resultar em taxa de cancelamento.<br>
+                sem aviso prévio, pode resultar<br>em taxa de cancelamento.<br>
                 Desde já, agradeço a compreensão!
                 </p>
+
+                <br>
+
+                <div>
+                    <p>Rua Itapecerica, 14, Quadra 30 - Jardim Primavera,<br>Duque de Caxias - RJ</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.04577920341757!2d-43.24965115668511!3d-22.701001115002178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9975113ffc625d%3A0x37d2ea280579eaab!2sBarbearia%20do%20Diego!5e0!3m2!1spt-BR!2sbr!4v1712118234646!5m2!1spt-BR!2sbr" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
         </div>
 
